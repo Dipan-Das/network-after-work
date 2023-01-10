@@ -107,15 +107,22 @@
     font-size: 14px;
     font-weight: 500;
     font-family: var(--ff-tertiary);
-    color: var(--c-tertiary-text-alt);
     padding: 6px 0;
     letter-spacing: 0.25px;
+  }
+  .footer-content ul li a {
+    color: var(--c-tertiary-text-alt);
+    transition: all 0.2s ease-in-out;
+  }
+  .footer-content ul li a:hover {
+    color: var(--c-white);
   }
   .footer-content h3 {
     font-size: 18px;
     font-weight: 400;
     color: var(--c-white);
     text-transform: uppercase;
+    margin-top: 44px;
   }
   .footer-form {
     margin-top: 25px;
@@ -128,6 +135,7 @@
     font-weight: 400;
     color: var(--c-white) !important;
     font-family: var(--ff-tertiary);
+    padding: 12px 20px;
   }
   .footer-form .btn-outline-secondary {
     color: var(--c-dark-blue);
@@ -147,4 +155,62 @@
     font-size: 20px;
     border: 1px solid var(--c-white);
     border-radius: 50px;
+    transition: all 0.2s ease-in-out;
   }
+  .footer-content .footer-social li a:hover {
+    color: var(--c-tertiary-text-alt);
+  }
+  .footer-wrap .tc ul {
+    display: flex;
+  }
+  .footer-wrap .tc ul li {
+    padding: 0 35px 0 0px;
+    margin: 0 0;
+    position: relative;
+  }
+  .footer-wrap .tc ul li::after {
+    position: absolute;
+    content: '';
+    background-color: var(--c-tertiary-text-alt);
+    height: 12px;
+    width: 2px;
+    bottom: 4px;
+    right: 16px;
+  }
+  .footer-wrap .tc ul li:last-child::after {
+    display: none;
+  }
+  .footer-wrap .tc ul li a {
+    font-family: var(--ff-tertiary);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--c-tertiary-text-alt);
+    letter-spacing: 0.25px;
+    text-transform: capitalize;
+  }
+  .footer-wrap .tc-para {
+    text-align: end;
+  }
+  .footer-wrap .tc-para .custom-para {
+    color: var(--c-tertiary-text-alt);
+    font-family: var(--ff-tertiary);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+  }
+  .footer-wrap .copyright .container {
+    padding: 0 0 !important;
+  }
+  .footer-wrap .copyright {
+    margin-top: 82px;
+    position: relative;
+  }
+  .footer-wrap .copyright::before {
+    position: absolute;
+    content: '';
+    background-color: var(--c-tertiary-text-alt);
+    width: 100%;
+    top: -40px;
+    left: 0;
+    height: 1px;
+}
