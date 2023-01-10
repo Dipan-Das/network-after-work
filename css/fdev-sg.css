@@ -142,6 +142,7 @@
     padding: 12px 20px;
     border-radius: 50px;
     font-family: muli;
+    background-color: var(--c-grey-light);
   }
   .signin-form .form-box .signin-form-btn .custom-button {
     width: 100%;
