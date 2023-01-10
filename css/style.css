@@ -26,17 +26,10 @@
 }
 
 @font-face {
-  font-family: 'proxima_nova';
-  src: url('./fonts/proximanova.otf');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
   font-family: 'muli';
-  src: url('./fonts/.otf');
-  font-weight: normal;
+  src: url('../fonts/muli/Muli-Regular.ttf');
+  font-weight: 400;
   font-style: normal;
-
 }
 
 
