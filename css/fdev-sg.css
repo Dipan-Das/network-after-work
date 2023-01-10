@@ -373,6 +373,7 @@
 @media (min-width: 1400px) and (max-width: 1500px){
     .signin-form .form-box form .pass-check ul li {padding-right: 20px;}
     .signin-form .form-box {padding: 35px 25px 50px;}
+    .sign-in-img {padding: 100px 0 0;}
 }
 
 @media (min-width: 1300px) and (max-width: 1400px){
@@ -382,6 +383,8 @@
     .signin-form .form-box form .pass-check ul li a {font-size: 12px;}
     .signin-form .form-box .custom-para {font-size: 12px;}
     .signin-form .form-box form {margin-top: 20px;}
+    .sign-in-img {padding: 90px 0 0;}
+    .sign-in-content h4 {transform: translateY(-70%);}
 }
 
 @media (min-width: 1200px) and (max-width: 1300px){
@@ -394,6 +397,8 @@
     .signin-form .form-box form .form-control {font-size: 12px;padding: 7px 20px;}
     .sign-in-content {margin-left: 240px;}
     .footer-wrap .copyright .container {padding: 0 15px !important;}
+    .sign-in-img {padding: 90px 0 0;}
+    .sign-in-content h4 {transform: translateY(-50%);}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -420,6 +425,8 @@
     .footer-wrap .tc ul li a {font-size: 12px;}
     .footer-wrap .tc-para .custom-para {font-size: 12px;}
     .footer-content .footer-social li a {height: 30px;width: 30px;font-size: 16px;}
+    .sign-in-img {padding: 150px 0 0;}
+    .sign-in-content h4 {transform: translateY(-30%);}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -446,6 +453,8 @@
     .footer-wrap .tc ul li a {font-size: 12px;}
     .footer-wrap .tc-para .custom-para {font-size: 12px;}
     .footer-content .footer-social li a {height: 30px;width: 30px;font-size: 16px;}
+    .sign-in-img {padding: 150px 0 0;}
+    .sign-in-content h4 {transform: translateY(-30%);}
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -492,6 +501,9 @@
     .footer-wrap .tc-para {text-align: center;margin-top: 15px;}
     .footer-content ul li {padding: 4px 0;}
     .footer-content .footer-form form .input-group {width: 70%;}
+    .signup-section .signin-form {top: 250px;}
+    .signup-section .sign-in-img {padding: 100px 0 0;}
+    .sign-in-content h4 {padding: 0;transform: translateY(0%);}
 }
 
 
@@ -500,6 +512,7 @@
     .signin-form {width: 70%;top: 30%;}
     .custom-header .header-top .custom-para {font-size: 11px;}
     .footer-content .footer-form form .input-group {width: 90%;}
+    .signup-section .sign-in-img {padding: 50px 0 0;}
 }
 
 @media (max-width: 575.98px){
