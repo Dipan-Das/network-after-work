@@ -13,7 +13,7 @@
     font-weight: 500;
     color: var(--c-white);
   }
-  .custom-header .header-top .custom-para span {
+  .custom-header .header-top .custom-para a {
     color: var(--c-yellow);
   }
   .custom-header .navbar.navbar-expand-lg.py-0 {
@@ -46,6 +46,7 @@
   .signin-section-wrap {
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
   .sign-in-img {
     margin: 0 0;
@@ -76,6 +77,88 @@
     font-weight: 700;
     color: var(--c-tertiary-text-alt);
     padding: 5px 0;
+  }
+  .signin-section {
+    position: relative;
+  }
+  .signin-form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 25%;
+    transform: translateY(38%);
+  }
+  .signin-form .form-box {
+    background-color: var(--c-white);
+    box-shadow: 3px 5px 10.56px 0.44px rgba(53, 53, 53, 0.75);
+    padding: 35px 35px 50px;
+    border-radius: 25px;
+  }
+  .signin-form .form-box h3 {
+    font-family: var(--ff-primary);
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--c-primary-blue);
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .signin-form .form-box .custom-para {
+    font-size: 14px;
+    color: var(--c-dark-blue);
+    font-weight: 400;
+    margin-top: 6px;
+  }
+  .signin-form .form-box form {
+    margin-top: 33px;
+  }
+  .signin-form .form-box form .form-control {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 20px;
+    border-radius: 50px;
+  }
+  .signin-form .form-box .signin-form-btn .custom-button {
+    width: 100%;
+    padding: 10px 0px 11px;
+    background-color: var(--c-primary-blue);
+    color: var(--c-white);
+  }
+  .signin-form .form-box .signin-form-btn .custom-button:hover {
+    background-color: transparent;
+    color: var(--c-primary-blue);
+  }
+  .signin-form .form-box form .pass-check ul {
+    display: flex;
+    margin-top: 22px;
+  }
+  .signin-form .form-box form .pass-check ul li {
+    margin: 0 0;
+    padding-right: 30px;
+  }
+  .signin-form .form-box form .form-check-input {
+    background-color: var(--c-grey-light);
+  }
+  .signin-form .form-box form .form-check-input:checked {
+    background-color: var(--c-primary-blue);
+  }
+  .signin-form .form-box form  .form-check-label {
+    color: var(--c-gray-text);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .signin-form .form-box form .pass-check ul li a {
+    color: var(--c-primary-blue);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .signin-form .form-box form .custom-para.pass-creation {
+    color: var(--c-gray-text) !important;
+    margin-top: 12px;
+  }
+  .signin-form .form-box form .custom-para.pass-creation a {
+    color: var(--c-primary-blue);
   }
   /*Footer*/
   .footer-wrap {
