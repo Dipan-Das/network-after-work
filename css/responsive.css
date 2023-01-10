@@ -22,11 +22,13 @@
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-	
+	.custom-button {font-size: 13px;padding: 4px 0px 5px;width: 95px;}
+    .custom-button-alt {font-size: 13px;padding: 4px 0px 5px;width: 95px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-	
+    .custom-button {font-size: 13px;padding: 4px 0px 5px;width: 95px;}
+    .custom-button-alt {font-size: 13px;padding: 4px 0px 5px;width: 95px;}
 }
 
 @media only screen and (max-width: 991.98px) {    
