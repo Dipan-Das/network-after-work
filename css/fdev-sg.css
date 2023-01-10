@@ -47,9 +47,32 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+  }
+  .signin-section-wrap::after {
+    position: absolute;
+    content: '';
+    background-color: var(--c-grey-light);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.65;
+    z-index: -1;
   }
   .sign-in-img {
     margin: 0 0;
+    position: relative;
+  }
+  .sign-in-img::after {
+    position: absolute;
+    content: '';
+    background-color: var(--c-dark-blue);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.65;
   }
   .sign-in-img img{
     width: 100%;
@@ -57,9 +80,7 @@
   }
   .sign-in-content {
     position: relative;
-    left: -30px;
-    right: 0px;
-    margin: 0 auto;
+    margin-left: 260px;
   }
   .sign-in-content h3 {
     font-family: var(--ff-primary);
@@ -87,8 +108,8 @@
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 25%;
-    transform: translateY(38%);
+    width: 24%;
+    transform: translateY(42%);
   }
   .signin-form .form-box {
     background-color: var(--c-white);
@@ -109,6 +130,7 @@
     color: var(--c-dark-blue);
     font-weight: 400;
     margin-top: 6px;
+    text-align: center;
   }
   .signin-form .form-box form {
     margin-top: 33px;
@@ -156,6 +178,7 @@
   .signin-form .form-box form .custom-para.pass-creation {
     color: var(--c-gray-text) !important;
     margin-top: 12px;
+    text-align: left;
   }
   .signin-form .form-box form .custom-para.pass-creation a {
     color: var(--c-primary-blue);
