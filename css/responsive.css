@@ -40,14 +40,16 @@
 .navbar-toggler .icon-bar:nth-child(2){transform: rotate(-45deg) translateY(5px) translateX(-5px);}
 .navbar-toggler .icon-bar:nth-child(3){opacity: 0}
 .navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
-.navbar-header {display: block;}
+.navbar-header {display: block;background-color: var(--c-primary-blue);}
+
+.custom-button {font-size: 12px;padding: 4px 0px 5px;width: 95px;}
+.custom-button-alt {font-size: 12px;padding: 4px 0px 5px;width: 95px;}
 }
 
 
 @media (max-width: 767.98px){
-    
-}
 
+}
 @media (max-width: 575.98px){
     
 }

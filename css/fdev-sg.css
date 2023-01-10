@@ -393,7 +393,7 @@
     .footer-content h3 {margin-top: 34px;}
     .footer-wrap .tc ul li a {font-size: 12px;}
     .footer-wrap .tc-para .custom-para {font-size: 12px;}
-    .footer-content .footer-social li a {height: 30px;width: 30px;}
+    .footer-content .footer-social li a {height: 30px;width: 30px;font-size: 16px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -419,7 +419,7 @@
     .footer-content h3 {margin-top: 34px;}
     .footer-wrap .tc ul li a {font-size: 12px;}
     .footer-wrap .tc-para .custom-para {font-size: 12px;}
-    .footer-content .footer-social li a {height: 30px;width: 30px;}
+    .footer-content .footer-social li a {height: 30px;width: 30px;font-size: 16px;}
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -432,18 +432,68 @@
 .navbar-toggler .icon-bar:nth-child(3){opacity: 0}
 .navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
 .navbar-header {display: block;}
+
+    .signin-form {transform: translateY(8%);width: 50%;}
+    .signin-form .form-box form .pass-check ul li {padding-right: 10px;}
+    .signin-form .form-box {padding: 20px 25px 28px;}
+    .signin-form .form-box form .form-check-label {font-size: 12px;}
+    .signin-form .form-box form .pass-check ul li a {font-size: 12px;}
+    .signin-form .form-box .custom-para {font-size: 12px;}
+    .signin-form .form-box form {margin-top: 20px;}
+    .signin-form .form-box form .form-control {font-size: 12px;padding: 7px 20px;}
+    .sign-in-content {margin-left: 0;text-align: center;padding: 30px 0;}
+    .footer-wrap .copyright .container {padding: 0 15px !important;}
+    .custom-header .nav-link {font-size: 13px;}
+    .custom-header .nav-item {padding-right: 10px;}
+    .sign-in-content h3 {font-size: 22px;line-height: 28px;}
+    .sign-in-content ul li {font-size: 18px;}
+    .footer-wrap .copyright {margin-top: 10px;}
+    .footer-wrap .copyright::before {top: -20px;}
+    .footer-wrap {padding: 40px 0 20px;}
+    .custom-header .header-top {padding: 8px 0px;}
+    .custom-header .header-top .custom-para {font-size: 12px;padding: 0 15px;}
+    .footer-content h3 {margin-top: 22px;}
+    .footer-wrap .tc ul li a {font-size: 12px;}
+    .footer-wrap .tc-para .custom-para {font-size: 12px;}
+    .footer-content .footer-social li a {height: 30px;width: 30px;font-size: 16px;}
+    .footer-content {text-align: center;margin-bottom: 30px;}
+    .header-btn {display: none;}
+    .signin-section-wrap {flex-direction: column;}
+    .sign-in-img img {height: 400px;}
+    .footer-wrap .tc ul {justify-content: center;}
+    .footer-wrap .tc-para {text-align: center;margin-top: 15px;}
+    .footer-content ul li {padding: 4px 0;}
+    .footer-content .footer-form form .input-group {width: 70%;}
 }
 
-
 @media (max-width: 767.98px){
-    
+    .sign-in-img img {height: 475px;}
+    .signin-form {transform: translateY(20%);width: 70%;}
+    .custom-header .header-top .custom-para {font-size: 11px;}
+    .footer-content .footer-form form .input-group {width: 90%;}
 }
 
 @media (max-width: 575.98px){
-    
+    .signin-form {width: 90%;}
+    .footer-content ul {margin-top: 8px;}
+    .footer-content .custom-para {margin-top: 15px;font-size: 12px;}
+    .footer-content ul li {font-size: 12px;}
+    .footer-content h4 {font-size: 16px;}
+    .footer-content h3 {font-size: 16px;}
+    .footer-social {margin-top: 10px !important;}
+    .footer-wrap .copyright {margin-top: 0px;}
+    .footer-wrap .copyright::before {top: -10px;}
+    .custom-header.py-xl-3.py-2 .navbar-brand.ms-0.py-0 img {height: 50px;}
+    .footer-content .footer-form form .input-group {width: 100%;}
 }
 
 @media only screen and (max-width: 480.98px) {	
-    
+    .signin-form {transform: translateY(15%);}
+    .sign-in-content h3 {font-size: 20px;line-height: 25px;}
+    .footer-wrap .tc ul li a {font-size: 11px;}
+    .footer-wrap .tc ul li {padding: 0 6px 0 0px;}
+    .footer-wrap .tc ul li::after {width: 1px;right: 3px;}
+    .footer-wrap .tc-para .custom-para {font-size: 11px;}
+    .custom-header.py-xl-3.py-2 .navbar-brand.ms-0.py-0 img {height: 40px;}
 }
 
