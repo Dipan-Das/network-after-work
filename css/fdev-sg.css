@@ -463,20 +463,12 @@
   width: 136px;
   position: relative;
   letter-spacing: 1px;
+  background-image: url(../images/btn-arrow.webp);
+  background-repeat: no-repeat;
+  background-position: 80% 50%;
 }
 
-.signin-form-btn.signup-3-form-btn .custom-button::after {
-  position: absolute;
-  content: '';
-  background-image: url(../images/btn-arrow.webp);
-  width: 100%;
-  top: 0px;
-  right: 0;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 100%;
-}
+
 .signin-form-btn.signup-3-form-btn .custom-button:hover {
   background-color: transparent;
   border: 1px solid var(--c-primary-blue);
@@ -488,7 +480,74 @@
 .form-step-3.step-4-form {
   margin-top: 40px;
 }
+
+/* ==================numbers=================== */
+
+.custom-step-wrap {
+  padding: 45px 0;
+  position: relative;
+}
+.number-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.c-number {
+  width: 36px;
+  height: 36px;
+  background-color: var(--c-tertiary-text);
+  text-align: center;
+  color: var(--c-secondary-text);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.number-wrap::after {
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background-color: var(--c-tertiary-text);
+  z-index: -2;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.number-wrap {
+  position: relative;
+  z-index: 9;
+}
+.c-number.active {
+  color: var(--c-white);
+  background-color: var(--c-primary-blue);
+}
+.custom-progress-line {
+  width: 62%;
+  height: 4px;
+  background-color: var(--c-primary-blue);
+  left: 13px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+#form-step-4 {
+  display: none;
+}
+#form-step-4.show {
+  display: block;
+}
+#form-step-3.hide{
+  display: none;
+}
+.custom-progress-line.reach-step-4 {
+  width: 87%;
+}
 /*************Rresponsive Start**************/
+
+
+
+
 
 @media (min-width: 1800px) and (max-width: 1900px){
   /*Sign up*/
