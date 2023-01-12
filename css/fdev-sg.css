@@ -482,11 +482,12 @@
   border: 1px solid var(--c-primary-blue);
   color: var(--c-primary-blue);
 }
-/*Signup-4*/
 .form-step-3-wrap.step-4-form-wrap form {
   margin-top: 25px;
 }
-
+.form-step-3.step-4-form {
+  margin-top: 40px;
+}
 /*************Rresponsive Start**************/
 
 @media (min-width: 1800px) and (max-width: 1900px){
@@ -731,7 +732,7 @@
     .custom-sign.up.signup-email::after {bottom: 100px;height: 22%;}
     .custom-sign.up.signup-email::before {height: 30%;}
      /*Signup-3*/
-     .form-step-3-wrap h3 {font-size: 19px;}
+     .form-step-3-wrap h3 {font-size: 18px;}
      .form-step-3-wrap form .custom-para {padding-left: 10px;}
      .signin-form-btn.signup-3-form-btn {text-align: center;}
 }
