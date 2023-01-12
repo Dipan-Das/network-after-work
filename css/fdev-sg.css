@@ -458,10 +458,11 @@
   color: var(--c-white);
   font-family: var(--ff-primary);
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
   padding: 8px 30px 8px 0px;
   width: 136px;
   position: relative;
+  letter-spacing: 1px;
 }
 
 .signin-form-btn.signup-3-form-btn .custom-button::after {
