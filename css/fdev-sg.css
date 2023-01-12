@@ -43,45 +43,6 @@
     color: var(--c-primary-blue);
   }
   /*banner*/
-  .signin-section-wrap {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-  }
-  .signin-section-wrap::after {
-    position: absolute;
-    content: '';
-    background-color: var(--c-grey-light);
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.65;
-    z-index: -1;
-  }
-  .sign-in-img {
-    margin: 0 0;
-    position: relative;
-  }
-  .sign-in-img::after {
-    position: absolute;
-    content: '';
-    background-color: var(--c-bg-blue);
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.73;
-  }
-  .sign-in-img img{
-    width: 100%;
-    object-fit: cover;
-  }
-  .sign-in-content {
-    position: relative;
-    margin-left: 260px;
-  }
   .sign-in-content h3 {
     font-family: var(--ff-primary);
     font-size: 25px;
@@ -99,9 +60,30 @@
     color: var(--c-tertiary-text-alt);
     padding: 5px 0;
   }
-  .signin-section {
+  .sign-in-content {
     position: relative;
-    overflow-x: hidden;
+    margin-left: 250px;
+    padding: 230px 0;
+  }
+  .sign-left-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+  }
+  .sign-left-bg::before {
+    position: absolute;
+    content: '';
+    background-color: var(--c-bg-blue);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.73;
+  }
+  .custom-sign {
+    background-color: var(--c-grey-light);
+    position: relative;
   }
   .signin-form {
     position: absolute;
@@ -109,16 +91,14 @@
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 24%;
+    width: 429px;
     transform: translateY(-50%);
-  }
-  .signin-form .form-box {
     background-color: var(--c-white);
     box-shadow: 3px 5px 10.56px 0.44px rgba(53, 53, 53, 0.75);
     padding: 35px 35px 50px;
     border-radius: 25px;
   }
-  .signin-form .form-box h3 {
+  .signin-form h3 {
     font-family: var(--ff-primary);
     font-size: 25px;
     font-weight: 700;
@@ -126,7 +106,7 @@
     text-transform: uppercase;
     text-align: center;
   }
-  .signin-form .form-box .custom-para {
+  .signin-form .custom-para {
     font-size: 14px;
     color: var(--c-dark-blue);
     font-weight: 400;
@@ -134,62 +114,58 @@
     text-align: center;
     font-family: muli;
   }
-  .signin-form .form-box form {
+  .signin-form form {
     margin-top: 33px;
   }
-  .signin-form .form-box form .form-control {
-    font-size: 14px;
-    font-weight: 400;
-    padding: 12px 20px;
-    border-radius: 50px;
-    font-family: muli;
-    background-color: var(--c-grey-light);
-  }
-  .signin-form .form-box .signin-form-btn .custom-button {
-    width: 100%;
-    padding: 10px 0px 11px;
-    background-color: var(--c-primary-blue);
-    color: var(--c-white);
-  }
-  .signin-form .form-box .signin-form-btn .custom-button:hover {
-    background-color: transparent;
-    color: var(--c-primary-blue);
-  }
-  .signin-form .form-box form .pass-check ul {
-    display: flex;
-    margin-top: 22px;
-  }
-  .signin-form .form-box form .pass-check ul li {
-    margin: 0 0;
-    padding-right: 30px;
-  }
-  .signin-form .form-box form .form-check-input {
-    background-color: var(--c-grey-light);
-  }
-  .signin-form .form-box form .form-check-input:checked {
-    background-color: var(--c-primary-blue);
-  }
-  .signin-form .form-box form  .form-check-label {
-    color: var(--c-gray-text);
-    font-size: 14px;
-    font-weight: 400;
-    font-family: muli;
-  }
-  .signin-form .form-box form .pass-check ul li a {
-    color: var(--c-primary-blue);
-    font-size: 14px;
-    font-weight: 400;
-    font-family: muli;
-  }
-  .signin-form .form-box form .custom-para.pass-creation {
-    color: var(--c-gray-text) !important;
-    margin-top: 12px;
-    text-align: left;
-    font-family: muli;
-  }
-  .signin-form .form-box form .custom-para.pass-creation a {
-    color: var(--c-primary-blue);
-  }
+  .signin-form form input {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 12px 20px;
+  border-radius: 50px;
+  font-family: muli;
+  background-color: var(--c-grey-light);
+}
+.signin-form .signin-form-btn .custom-button {
+  width: 100%;
+  padding: 10px 0px 11px;
+  background-color: var(--c-primary-blue);
+  color: var(--c-white);
+}
+.signin-form form .pass-check ul {
+  display: flex;
+  margin-top: 22px;
+}
+.signin-form form .pass-check ul li {
+  margin: 0 0;
+  padding-right: 30px;
+}
+.signin-form form .form-check-label {
+  color: var(--c-gray-text);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: muli;
+}
+.signin-form form .pass-check ul li a {
+  color: var(--c-primary-blue);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: muli;
+}
+.signin-form form .custom-para.pass-creation {
+  color: var(--c-gray-text) !important;
+  margin-top: 12px;
+  text-align: left;
+  font-family: muli;
+}
+.signin-form form .custom-para.pass-creation a {
+  color: var(--c-primary-blue);
+}
+.signin-form form .form-check-input:checked {
+  background-color: var(--c-primary-blue);
+}
+.pass-check .form-check-input {
+  padding: 7px 7px;
+}
   /*Footer*/
   .footer-wrap {
     background-color: var(--c-dark-blue);
@@ -332,25 +308,7 @@
     left: 0;
     height: 1px;
 }
-.signup-section::before {
-  content: '';
-  background-image: url(../images/sign-up-pattern.webp);
-  width: 627px;
-  height: 410px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-.sign-in-content h4 {
-  font-size: 25px;
-  font-weight: 700;
-  color: var(--c-gray-text);
-  padding: 0 18% 0 30px;
-  line-height: 41px;
-  transform: translateY(-100%);
-}
+
 /*************Rresponsive Start**************/
 
 @media (min-width: 1800px) and (max-width: 1900px){
@@ -366,56 +324,28 @@
 }
 
 @media (min-width: 1500px) and (max-width: 1600px){
-    .signin-form .form-box form .pass-check ul li {padding-right: 20px;}
-    .signin-form .form-box {padding: 35px 25px 50px;}
+
 }
 
 @media (min-width: 1400px) and (max-width: 1500px){
-    .signin-form .form-box form .pass-check ul li {padding-right: 20px;}
-    .signin-form .form-box {padding: 35px 25px 50px;}
-    .sign-in-img {padding: 100px 0 0;}
+
 }
 
 @media (min-width: 1300px) and (max-width: 1400px){
-    .signin-form .form-box form .pass-check ul li {padding-right: 20px;}
-    .signin-form .form-box {padding: 28px 25px 38px;}
-    .signin-form .form-box form .form-check-label {font-size: 12px;}
-    .signin-form .form-box form .pass-check ul li a {font-size: 12px;}
-    .signin-form .form-box .custom-para {font-size: 12px;}
-    .signin-form .form-box form {margin-top: 20px;}
-    .sign-in-img {padding: 90px 0 0;}
-    .sign-in-content h4 {transform: translateY(-70%);}
+
 }
 
 @media (min-width: 1200px) and (max-width: 1300px){
-    .signin-form .form-box form .pass-check ul li {padding-right: 10px;}
-    .signin-form .form-box {padding: 28px 25px 38px;}
-    .signin-form .form-box form .form-check-label {font-size: 12px;}
-    .signin-form .form-box form .pass-check ul li a {font-size: 12px;}
-    .signin-form .form-box .custom-para {font-size: 12px;}
-    .signin-form .form-box form {margin-top: 20px;}
-    .signin-form .form-box form .form-control {font-size: 12px;padding: 7px 20px;}
-    .sign-in-content {margin-left: 240px;}
+
     .footer-wrap .copyright .container {padding: 0 15px !important;}
-    .sign-in-img {padding: 90px 0 0;}
-    .sign-in-content h4 {transform: translateY(-50%);}
+
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-	.signin-form {width: 30%;}
-    .signin-form .form-box form .pass-check ul li {padding-right: 10px;}
-    .signin-form .form-box {padding: 20px 25px 28px;}
-    .signin-form .form-box form .form-check-label {font-size: 12px;}
-    .signin-form .form-box form .pass-check ul li a {font-size: 12px;}
-    .signin-form .form-box .custom-para {font-size: 12px;}
-    .signin-form .form-box form {margin-top: 20px;}
-    .signin-form .form-box form .form-control {font-size: 12px;padding: 7px 20px;}
-    .sign-in-content {margin-left: 200px;}
+
     .footer-wrap .copyright .container {padding: 0 15px !important;}
     .custom-header .nav-link {font-size: 13px;}
     .custom-header .nav-item {padding-right: 10px;}
-    .sign-in-content h3 {font-size: 22px;line-height: 28px;}
-    .sign-in-content ul li {font-size: 18px;}
     .footer-wrap .copyright {margin-top: 50px;}
     .footer-wrap .copyright::before {top: -20px;}
     .footer-wrap {padding: 40px 0 20px;}
@@ -425,25 +355,13 @@
     .footer-wrap .tc ul li a {font-size: 12px;}
     .footer-wrap .tc-para .custom-para {font-size: 12px;}
     .footer-content .footer-social li a {height: 30px;width: 30px;font-size: 16px;}
-    .sign-in-img {padding: 150px 0 0;}
-    .sign-in-content h4 {transform: translateY(-30%);}
+
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-	.signin-form {width: 30%;}
-    .signin-form .form-box form .pass-check ul li {padding-right: 10px;}
-    .signin-form .form-box {padding: 20px 25px 28px;}
-    .signin-form .form-box form .form-check-label {font-size: 12px;}
-    .signin-form .form-box form .pass-check ul li a {font-size: 12px;}
-    .signin-form .form-box .custom-para {font-size: 12px;}
-    .signin-form .form-box form {margin-top: 20px;}
-    .signin-form .form-box form .form-control {font-size: 12px;padding: 7px 20px;}
-    .sign-in-content {margin-left: 180px;}
     .footer-wrap .copyright .container {padding: 0 15px !important;}
     .custom-header .nav-link {font-size: 13px;}
     .custom-header .nav-item {padding-right: 10px;}
-    .sign-in-content h3 {font-size: 22px;line-height: 28px;}
-    .sign-in-content ul li {font-size: 18px;}
     .footer-wrap .copyright {margin-top: 50px;}
     .footer-wrap .copyright::before {top: -20px;}
     .footer-wrap {padding: 40px 0 20px;}
@@ -453,8 +371,6 @@
     .footer-wrap .tc ul li a {font-size: 12px;}
     .footer-wrap .tc-para .custom-para {font-size: 12px;}
     .footer-content .footer-social li a {height: 30px;width: 30px;font-size: 16px;}
-    .sign-in-img {padding: 150px 0 0;}
-    .sign-in-content h4 {transform: translateY(-30%);}
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -468,22 +384,12 @@
 .navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
 .navbar-header {display: block;}
 
-    .signin-form {width: 50%;top: 28%;}
-    .signin-form .form-box form .pass-check ul li {padding-right: 10px;}
-    .signin-form .form-box {padding: 20px 25px 28px;}
-    .signin-form .form-box form .form-check-label {font-size: 12px;}
-    .signin-form .form-box form .pass-check ul li a {font-size: 12px;}
-    .signin-form .form-box .custom-para {font-size: 12px;}
-    .signin-form .form-box form {margin-top: 20px;}
-    .signin-form .form-box form .form-control {font-size: 12px;padding: 7px 20px;}
-    .sign-in-content {margin-left: 0;text-align: center;padding: 30px 0;}
+
     .footer-wrap .copyright .container {padding: 0 15px !important;}
     .custom-header .nav-link {font-size: 13px;}
     .custom-header .nav-item {padding-right: 10px;margin: 0px 0px;border-bottom: 1px dashed var(--c-tertiary-text);}
     .custom-header .nav-item:last-child {border-bottom: 1px dashed transparent;}
     .custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {padding: 20px 0 0px 0px;}
-    .sign-in-content h3 {font-size: 22px;line-height: 28px;}
-    .sign-in-content ul li {font-size: 18px;}
     .footer-wrap .copyright {margin-top: 10px;}
     .footer-wrap .copyright::before {top: -20px;}
     .footer-wrap {padding: 40px 0 20px;}
@@ -495,28 +401,19 @@
     .footer-content .footer-social li a {height: 30px;width: 30px;font-size: 16px;}
     .footer-content {text-align: center;margin-bottom: 30px;}
     .header-btn {display: none;}
-    .signin-section-wrap {flex-direction: column;}
-    .sign-in-img img {height: 400px;}
     .footer-wrap .tc ul {justify-content: center;}
     .footer-wrap .tc-para {text-align: center;margin-top: 15px;}
     .footer-content ul li {padding: 4px 0;}
     .footer-content .footer-form form .input-group {width: 70%;}
-    .signup-section .signin-form {top: 250px;}
-    .signup-section .sign-in-img {padding: 100px 0 0;}
-    .sign-in-content h4 {padding: 0;transform: translateY(0%);}
 }
 
 
 @media (max-width: 767.98px){
-    .sign-in-img img {height: 475px;}
-    .signin-form {width: 70%;top: 30%;}
     .custom-header .header-top .custom-para {font-size: 11px;}
     .footer-content .footer-form form .input-group {width: 90%;}
-    .signup-section .sign-in-img {padding: 50px 0 0;}
 }
 
 @media (max-width: 575.98px){
-    .signin-form {width: 90%;}
     .footer-content ul {margin-top: 8px;}
     .footer-content .custom-para {margin-top: 15px;font-size: 12px;}
     .footer-content ul li {font-size: 12px;}
@@ -531,7 +428,6 @@
 }
 
 @media only screen and (max-width: 480.98px) {	
-    .sign-in-content h3 {font-size: 20px;line-height: 25px;}
     .footer-wrap .tc ul li a {font-size: 11px;}
     .footer-wrap .tc ul li {padding: 0 6px 0 0px;}
     .footer-wrap .tc ul li::after {width: 1px;right: 3px;}
