@@ -17,8 +17,8 @@ jQuery('#custom-owl').owlCarousel({
 });
 jQuery(document).ready(function(){
     jQuery('#step-3-btn').click(function(){
-        jQuery('#form-step-4').addClass('show');
-        jQuery('#form-step-3').addClass('hide');
+        jQuery('#form-step-4').slideDown(1000);
+        jQuery('#form-step-3').hide();
         jQuery('.number-wrap li:nth-child(3)').addClass('active');
         jQuery('.custom-progress-line').addClass('reach-step-4')
     })

@@ -537,12 +537,7 @@
 #form-step-4 {
   display: none;
 }
-#form-step-4.show {
-  display: block;
-}
-#form-step-3.hide{
-  display: none;
-}
+
 .custom-progress-line.reach-step-4 {
   width: 87%;
 }
