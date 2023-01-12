@@ -392,6 +392,101 @@
   position: relative;
   z-index: 1;
 }
+/*Signup-3*/
+.form-step-3-wrap form .form-select {
+  margin: 15px 0;
+  font-size: 14px;
+  font-family: muli;
+  font-weight: 400;
+  color: var(--c-gray-text);
+  padding: 11px 20px;
+  border-radius: 50px;
+  background-color: var(--c-white);
+}
+.custom-step {
+  background-color: #f8f8f8;
+}
+.form-step-3-wrap form .form-control {
+  font-family: muli;
+  font-weight: 400;
+  color: var(--c-gray-text);
+  padding: 11px 20px;
+  border-radius: 50px;
+  background-color: var(--c-white);
+  font-size: 14px;
+}
+.form-step-3-wrap .dp img {
+  width: 20%;
+  object-fit: contain;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #d6d6d6;
+  object-position: 20px 20px;
+}
+.form-step-3-wrap .dp {
+  text-align: center;
+  margin: 38px 0 15px 0;
+}
+.form-step-3-wrap form .custom-para {
+  font-family: muli;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--c-gray-text);
+  padding-left: 20px;
+  text-align: left;
+}
+.form-step-3-wrap h3 {
+  font-family: var(--ff-primary);
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--c-primary-blue);
+  text-transform: uppercase;
+  text-align: center;
+}
+.form-step-3-wrap .custom-para {
+  font-family: muli;
+  color: var(--c-secondary-text);
+  margin-top: 10px;
+  text-align: center;
+}
+.form-step.m-0 {
+  padding: 30px 0 50px;
+}
+.signin-form-btn.signup-3-form-btn .custom-button {
+  background-color: var(--c-primary-blue);
+  border: 1px solid var(--c-primary-blue);
+  color: var(--c-white);
+  font-family: var(--ff-primary);
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 30px 8px 0px;
+  width: 136px;
+  position: relative;
+}
+::-moz-focus-inner {
+
+  padding: 0;
+  border-style: none;
+
+}
+.signin-form-btn.signup-3-form-btn .custom-button::after {
+  position: absolute;
+  content: '';
+  background-image: url(../images/btn-arrow.webp);
+  width: 100%;
+  top: 0px;
+  right: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+}
+.signin-form-btn.signup-3-form-btn .custom-button:hover {
+  background-color: transparent;
+  border: 1px solid var(--c-primary-blue);
+  color: var(--c-primary-blue);
+}
+
 /*************Rresponsive Start**************/
 
 @media (min-width: 1800px) and (max-width: 1900px){
