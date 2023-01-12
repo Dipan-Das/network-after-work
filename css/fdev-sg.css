@@ -127,7 +127,7 @@
 }
 .signin-form .signin-form-btn .custom-button {
   width: 100%;
-  padding: 10px 0px 11px;
+  padding: 11px 0px 11px;
   background-color: var(--c-primary-blue);
   color: var(--c-white);
 }
@@ -165,6 +165,10 @@
 }
 .pass-check .form-check-input {
   padding: 7px 7px;
+}
+.signin-form .signin-form-btn .custom-button:hover {
+  background-color: transparent;
+  color: var(--c-primary-blue);
 }
   /*Footer*/
   .footer-wrap {
@@ -336,13 +340,18 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1300px){
-
-    .footer-wrap .copyright .container {padding: 0 15px !important;}
+  .sign-in-content {margin-left: 230px;padding: 140px 0;}
+  .footer-wrap .copyright .container {padding: 0 15px !important;}
 
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-
+    .sign-in-content {margin-left: 180px;padding: 140px 0;}
+    .sign-in-content h3 {font-size: 22px;}
+    .sign-in-content ul li {font-size: 18px;padding: 3px 0;}
+    .signin-form h3 {font-size: 22px;}
+    .signin-form form {margin-top: 22px;}
+    .signin-form {padding: 25px 20px 30px;width: 370px;}
     .footer-wrap .copyright .container {padding: 0 15px !important;}
     .custom-header .nav-link {font-size: 13px;}
     .custom-header .nav-item {padding-right: 10px;}
@@ -359,6 +368,12 @@
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
+    .sign-in-content {margin-left: 180px;padding: 120px 0;}
+    .sign-in-content h3 {font-size: 20px;}
+    .sign-in-content ul li {font-size: 17px;padding: 3px 0;}
+    .signin-form h3 {font-size: 22px;}
+    .signin-form form {margin-top: 22px;}
+    .signin-form {padding: 25px 20px 30px;width: 370px;}
     .footer-wrap .copyright .container {padding: 0 15px !important;}
     .custom-header .nav-link {font-size: 13px;}
     .custom-header .nav-item {padding-right: 10px;}
@@ -384,6 +399,13 @@
 .navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
 .navbar-header {display: block;}
 
+    .sign-in-content {margin-left: 0px;padding: 60px 0; text-align: center;}
+    .sign-in-content h3 {font-size: 20px;}
+    .sign-in-content ul li {font-size: 17px;padding: 3px 0;}
+    .signin-form h3 {font-size: 22px;}
+    .signin-form form {margin-top: 22px;}
+    .signin-form {padding: 25px 20px 30px;width: 500px;top: 28%;}
+    .sign-left-bg {min-height: 470px;}
 
     .footer-wrap .copyright .container {padding: 0 15px !important;}
     .custom-header .nav-link {font-size: 13px;}
@@ -410,10 +432,16 @@
 
 @media (max-width: 767.98px){
     .custom-header .header-top .custom-para {font-size: 11px;}
+    .sign-in-content {padding: 50px 0;}
+    .signin-form {width: 550px;top: 29%;}
     .footer-content .footer-form form .input-group {width: 90%;}
 }
 
 @media (max-width: 575.98px){
+    .sign-in-content {padding: 40px 0;}
+    .signin-form {width: 450px;top: 30%;}
+    .sign-in-content h3 {line-height: 26px;}
+    .sign-in-content ul {margin-top: 3px;}
     .footer-content ul {margin-top: 8px;}
     .footer-content .custom-para {margin-top: 15px;font-size: 12px;}
     .footer-content ul li {font-size: 12px;}
@@ -428,6 +456,10 @@
 }
 
 @media only screen and (max-width: 480.98px) {	
+    .signin-form h3 {font-size: 18px;}
+    .signin-form .custom-para {font-size: 13px;}
+    .signin-form form .form-check-label {font-size: 13px;}
+    .signin-form {width: 360px;}
     .footer-wrap .tc ul li a {font-size: 11px;}
     .footer-wrap .tc ul li {padding: 0 6px 0 0px;}
     .footer-wrap .tc ul li::after {width: 1px;right: 3px;}
@@ -435,3 +467,9 @@
     .custom-header.py-xl-3.py-2 .navbar-brand.ms-0.py-0 img {height: 40px;}
 }
 
+@media only screen and (max-width: 390.98px) {
+    .signin-form {width: 290px;top: 31%;}
+    .signin-form form .pass-check ul li {padding-right: 12px;}
+    .signin-form {padding: 25px 15px 30px;}
+    .signin-form form {margin-top: 12px;}
+}
