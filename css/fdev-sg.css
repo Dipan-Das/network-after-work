@@ -127,9 +127,12 @@
 }
 .signin-form .signin-form-btn .custom-button {
   width: 100%;
-  padding: 11px 0px 11px;
+  padding: 8px 0px 8px;
   background-color: var(--c-primary-blue);
   color: var(--c-white);
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--ff-primary);
 }
 .signin-form form .pass-check ul {
   display: flex;
@@ -313,6 +316,33 @@
     height: 1px;
 }
 
+/*Sign Up*/
+.custom-sign.up form .form-control {
+  margin-bottom: 17px !important;
+}
+.custom-sign.up .sign-in-content h3 {
+  line-height: 34px;
+  color: var(--c-dark-grey-text);
+  padding-right: 310px;
+}
+.custom-sign.up .sign-in-content {
+  padding: 148px 0 436px;
+}
+.custom-sign.up {
+  position: relative;
+}
+.custom-sign.up::after {
+  position: absolute;
+  content: '';
+  background-image: url(../images/sign-up-pattern.webp);
+  bottom: 0;
+  right: 0;
+  width: 36%;
+  height: 62%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
 /*************Rresponsive Start**************/
 
 @media (min-width: 1800px) and (max-width: 1900px){
@@ -406,7 +436,7 @@
     .signin-form form {margin-top: 22px;}
     .signin-form {padding: 25px 20px 30px;width: 500px;top: 28%;}
     .sign-left-bg {min-height: 470px;}
-
+    .signin-form .signin-form-btn .custom-button {font-size: 16px;}
     .footer-wrap .copyright .container {padding: 0 15px !important;}
     .custom-header .nav-link {font-size: 13px;}
     .custom-header .nav-item {padding-right: 10px;margin: 0px 0px;border-bottom: 1px dashed var(--c-tertiary-text);}
@@ -442,6 +472,7 @@
     .signin-form {width: 450px;top: 30%;}
     .sign-in-content h3 {line-height: 26px;}
     .sign-in-content ul {margin-top: 3px;}
+    .signin-form .signin-form-btn .custom-button {font-size: 15px;padding: 7px 0px 7px;}
     .footer-content ul {margin-top: 8px;}
     .footer-content .custom-para {margin-top: 15px;font-size: 12px;}
     .footer-content ul li {font-size: 12px;}
