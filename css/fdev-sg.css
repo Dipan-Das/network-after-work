@@ -346,6 +346,52 @@
 .signin-form.signup-form {
   z-index: 1;
 }
+/*Signup-2-Email*/
+.sign-in-content.signup-email-right {
+  padding: 360px 0 !important;
+  margin-left: 0;
+}
+.signin-form.signup-form.signup-email-content .custom-para {
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 10px;
+}
+.signin-form.signup-form.signup-email-content {
+  padding: 90px 35px;
+}
+.custom-sign.up.signup-email {
+  position: relative;
+}
+.custom-sign.up.signup-email::after {
+  position: absolute;
+  content: '';
+  background-image: url(../images/signup-2-pattern.webp);
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.custom-sign.up.signup-email::before {
+  position: absolute;
+  content: '';
+  background-image: url(../images/signup-2-mail.webp);
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 80%;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+}
+.sign-left-bg.email-bg {
+  position: relative;
+  z-index: 1;
+}
 /*************Rresponsive Start**************/
 
 @media (min-width: 1800px) and (max-width: 1900px){
@@ -376,20 +422,30 @@
   /*Sign up*/
   .custom-sign.up .sign-in-content h3 {padding-right: 90px;}
   .custom-sign.up::after {height: 52%;}
+  /*Signup-2-email*/
+  .custom-sign.up.signup-email::before {height: 70%;}
 }
 
 @media (min-width: 1300px) and (max-width: 1400px){
   /*Sign up*/
   .custom-sign.up .sign-in-content h3 {padding-right: 30px;}
   .custom-sign.up::after {height: 52%;}
+  /*Signup-2-email*/
+  .custom-sign.up.signup-email::before {height: 60%;}
 }
 
 @media (min-width: 1200px) and (max-width: 1300px){
   .sign-in-content {margin-left: 230px;padding: 140px 0;}
   .footer-wrap .copyright .container {padding: 0 15px !important;}
+  .footer-form .btn-outline-secondary {font-size: 12px;}
   /*Sign up*/
   .custom-sign.up .sign-in-content h3 {padding-right: 30px;}
   .custom-sign.up::after {height: 52%;}
+  /*Signup-2-email*/
+  .custom-sign.up.signup-email::before {height: 70%;}
+  .sign-in-content.signup-email-right {padding: 250px 0 !important;}
+  .signin-form.signup-form.signup-email-content {padding: 90px 15px;}
+  .signin-form.signup-form.signup-email-content .custom-para {font-size: 14px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -411,10 +467,16 @@
     .footer-wrap .tc ul li a {font-size: 12px;}
     .footer-wrap .tc-para .custom-para {font-size: 12px;}
     .footer-content .footer-social li a {height: 30px;width: 30px;font-size: 16px;}
+    .footer-form .btn-outline-secondary {font-size: 12px;}
     /*Sign up*/
     .custom-sign.up .sign-in-content h3 {padding-right: 0px;}
     .custom-sign.up::after {height: 42%;}
     .custom-sign.up .sign-in-content {padding: 100px 0 388px;}
+    /*Signup-2-email*/
+    .custom-sign.up.signup-email::before {height: 70%;}
+    .sign-in-content.signup-email-right {padding: 200px 0 !important;}
+    .signin-form.signup-form.signup-email-content {padding: 75px 15px;}
+    .signin-form.signup-form.signup-email-content .custom-para {font-size: 14px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -436,10 +498,16 @@
     .footer-wrap .tc ul li a {font-size: 12px;}
     .footer-wrap .tc-para .custom-para {font-size: 12px;}
     .footer-content .footer-social li a {height: 30px;width: 30px;font-size: 16px;}
+    .footer-form .btn-outline-secondary {font-size: 12px;}
     /*Sign up*/
     .custom-sign.up .sign-in-content h3 {padding-right: 0px;}
     .custom-sign.up::after {height: 42%;}
     .custom-sign.up .sign-in-content {padding: 100px 0 388px;}
+    /*Signup-2-email*/
+    .custom-sign.up.signup-email::before {height: 70%;}
+    .sign-in-content.signup-email-right {padding: 200px 0 !important;}
+    .signin-form.signup-form.signup-email-content {padding: 75px 15px;}
+    .signin-form.signup-form.signup-email-content .custom-para {font-size: 14px;}
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -481,12 +549,19 @@
     .footer-wrap .tc-para {text-align: center;margin-top: 15px;}
     .footer-content ul li {padding: 4px 0;}
     .footer-content .footer-form form .input-group {width: 70%;}
+    .footer-form .btn-outline-secondary {font-size: 12px;}
     /*Sign up*/
     .custom-sign.up .sign-in-content h3 {padding-right: 0px;}
     .custom-sign.up::after {height: 26%;}
     .custom-sign.up .sign-in-content {padding: 60px 0 120px;position: relative;z-index: 1;}
     .custom-sign.up .sign-left-bg {min-height: 600px;}
     .custom-sign.up .signin-form {top: 35%;}
+    /*Signup-2-email*/
+    .custom-sign.up.signup-email::before {height: 27%;}
+    .sign-in-content.signup-email-right {padding: 120px 0 !important;}
+    .signin-form.signup-form.signup-email-content {padding: 75px 15px;}
+    .signin-form.signup-form.signup-email-content .custom-para {font-size: 14px;}
+    .custom-sign.up.signup-email::after {top: auto;height: 29%;background-position: left center;}
 }
 
 
@@ -495,6 +570,11 @@
     .sign-in-content {padding: 50px 0;}
     .signin-form {width: 550px;top: 29%;}
     .footer-content .footer-form form .input-group {width: 90%;}
+    /*Signup-2-email*/
+    .sign-left-bg.email-bg {min-height: 400px !important;}
+    .custom-sign.up.signup-email::after {bottom: 55px;}
+    .custom-sign.up.signup-email::before {height: 34%;}
+    .signin-form.signup-form.signup-email-content {top: 32%;}
 }
 
 @media (max-width: 575.98px){
@@ -518,6 +598,8 @@
     .custom-sign.up .signin-form {top: 36%;}
     .custom-sign.up::after {height: 19%;}
     .custom-sign.up .sign-in-content {padding: 40px 0 80px;}
+    /*Signup-2-email*/
+    .signin-form.signup-form.signup-email-content {top: 31%;}
 }
 
 @media only screen and (max-width: 480.98px) {	
@@ -535,6 +617,10 @@
     .custom-sign.up::after {height: 17%;}
     .custom-sign.up .sign-in-content {padding: 40px 0 40px;}
     .custom-sign.up .signin-form {top: 39%;}
+    /*Signup-2-email*/
+    .signin-form.signup-form.signup-email-content {top: 30%;}
+    .custom-sign.up.signup-email::after {bottom: 100px;height: 22%;}
+    .custom-sign.up.signup-email::before {height: 30%;}
 }
 
 @media only screen and (max-width: 390.98px) {
@@ -542,6 +628,9 @@
     .signin-form form .pass-check ul li {padding-right: 12px;}
     .signin-form {padding: 25px 15px 30px;}
     .signin-form form {margin-top: 12px;}
-    /*Sign Up*/
+    /*Signup-2-email*/
+    .signin-form.signup-form.signup-email-content {top: 34%;}
+    .sign-in-content.signup-email-right {padding: 90px 0 !important;}
+    .custom-sign.up.signup-email::after {bottom: 60px;height: 22%;}
 
 }
