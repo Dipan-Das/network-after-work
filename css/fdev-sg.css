@@ -686,7 +686,7 @@
   color: var(--c-primary-blue);
 }
 .event .owl-nav .owl-prev span {
-  background-color: var(--c-dark-grey-text) !important;
+  background-color: var(--c-tertiary-text) !important;
   height: 30px;
   width: 30px;
   border-radius: 50px;
@@ -699,7 +699,7 @@
   line-height: 24px;
 }
 .event .owl-nav .owl-next span {
-  background-color: var(--c-dark-grey-text) !important;
+  background-color: var(--c-tertiary-text) !important;
   height: 30px;
   width: 30px;
   border-radius: 50px;
