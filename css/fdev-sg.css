@@ -644,7 +644,7 @@
 .event-box-content .event-img .custom-para {
   position: absolute;
   bottom: 10px;
-  left: 30px;
+  left: 22px;
   font-family: muli;
   font-size: 14px;
   color: var(--c-white);
@@ -665,9 +665,9 @@
 }
 .event-box-content h4 {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--c-primary-blue);
-  padding: 20px 0px 20px 22px;
+  padding: 15px 0px 15px 22px;
 }
 .evnt-btn {
   text-align: center;
@@ -710,6 +710,9 @@
   font-size: 31px;
   text-align: center;
   line-height: 24px;
+}
+.event.member .custom-button {
+  width: 188px;
 }
 /*************Rresponsive Start**************/
 

@@ -1,5 +1,23 @@
 // JavaScript Document
-jQuery('#section-carousel').owlCarousel({
+jQuery('#events-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots: false,
+    responsive:{
+        0:{
+            items:1
+        },
+        576:{
+            items:2
+        },
+        992:{
+            items:4
+        }
+    }
+});
+
+jQuery('#members-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
