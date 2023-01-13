@@ -44,6 +44,9 @@
 
 .custom-button {font-size: 12px;padding: 4px 0px 5px;width: 95px;}
 .custom-button-alt {font-size: 12px;padding: 4px 0px 5px;width: 95px;}
+.custom-heading.line h3 {font-size: 22px;padding-left: 16px;}
+.custom-heading.line::after {height: 32px;width: 7px;}
+.custom-heading.line {margin-bottom: 20px;}
 }
 
 

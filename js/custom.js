@@ -8,7 +8,7 @@ jQuery('#events-carousel').owlCarousel({
         0:{
             items:1
         },
-        576:{
+        768:{
             items:2
         },
         992:{
@@ -26,7 +26,7 @@ jQuery('#members-carousel').owlCarousel({
         0:{
             items:1
         },
-        576:{
+        768:{
             items:2
         },
         992:{
@@ -44,7 +44,7 @@ jQuery('#groups-carousel').owlCarousel({
         0:{
             items:1
         },
-        576:{
+        768:{
             items:2
         },
         992:{
@@ -62,7 +62,7 @@ jQuery('#deals-carousel').owlCarousel({
         0:{
             items:1
         },
-        576:{
+        768:{
             items:2
         },
         992:{
@@ -80,7 +80,7 @@ jQuery('#leads-carousel').owlCarousel({
         0:{
             items:1
         },
-        576:{
+        768:{
             items:2
         },
         992:{
@@ -98,7 +98,7 @@ jQuery('#blogs-carousel').owlCarousel({
         0:{
             items:1
         },
-        576:{
+        768:{
             items:2
         },
         992:{
