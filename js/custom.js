@@ -1,20 +1,22 @@
 // JavaScript Document
-jQuery('#custom-owl').owlCarousel({
+jQuery('#section-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
+    dots: false,
     responsive:{
         0:{
             items:1
         },
-        600:{
-            items:1
+        576:{
+            items:2
         },
-        1000:{
-            items:1
+        992:{
+            items:4
         }
     }
 });
+
 jQuery(document).ready(function(){
     jQuery('#step-3-btn').click(function(){
         jQuery('#form-step-4').slideDown(1000);

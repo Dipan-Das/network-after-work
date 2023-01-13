@@ -42,7 +42,7 @@
   .custom-header .nav-link.active {
     color: var(--c-primary-blue);
   }
-  /*banner*/
+  /*banner-signin*/
   .sign-in-content h3 {
     font-family: var(--ff-primary);
     font-size: 25px;
@@ -541,11 +541,177 @@
 .custom-progress-line.reach-step-4 {
   width: 87%;
 }
+
+/*Homepage*/
+.custom-banner .carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.custom-banner .banner-img {
+  object-fit: cover;
+  width: 100% !important;
+  height: 800px;
+  object-position: 0 50%;
+}
+.banner-content {
+  background-color: #0f59a8;
+  opacity: 0.85;
+  width: 507px;
+  height: 371px;
+  margin: 0 0 0 60px;
+  padding: 22px 34px 0;
+}
+.custom-banner .carousel-caption h2 {
+  font-family: var(--ff-primary);
+  font-size: 25px;
+  font-weight: 700;
+  text-align: left;
+  color: var(--c-white);
+}
+.custom-banner .carousel-caption .custom-para {
+  font-family: var(--ff-primary);
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 26px;
+  color: var(--c-white);
+  margin-top: 10px;
+}
+.banner-btn {
+  text-align: left;
+  margin-top: 20px;
+}
+.banner-btn .custom-button {
+  background-color: var(--c-white);
+  border: 1px solid var(--c-white);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 9px 0px 9px;
+  width: 243px;
+}
+.banner-btn .custom-button:hover {
+  background-color: transparent;
+  border: 1px solid var(--c-white);
+}
+.event {
+  padding-top: 75px;
+}
+.event .custom-heading.line h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--c-secondary-text);
+  padding-left: 25px;
+}
+.event .custom-heading.line {
+  position: relative;
+  margin-bottom: 40px;
+}
+.event .custom-heading.line::after {
+  position: absolute;
+  content: '';
+  background-color: var(--c-primary-blue);
+  height: 39px;
+  width: 9px;
+  top: -3px;
+  left: 0;
+}
+.home-section-btn {
+  text-align: end;
+  margin-bottom: 40px;
+}
+.home-section-btn .custom-button {
+  padding: 9px 0px 9px;
+  width: 118px;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.event-box-content {
+  box-shadow: 4px 6px 7px 0px rgba(102, 102, 102, 0.74);
+  border-radius: 10px;
+  position: relative;
+  margin: 0px 10px;
+}
+.event-box-content .event-img img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+  height: 235px;
+}
+.event-box-content .event-img {
+  position: relative;
+}
+.event-box-content .event-img .custom-para {
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  font-family: muli;
+  font-size: 14px;
+  color: var(--c-white);
+  font-weight: 400;
+}
+.event-box-content .event-category {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: var(--c-white);
+  padding: 5px 12px;
+  border-radius: 3px;
+  opacity: 0.9;
+  font-family: muli;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: var(--c-secondary-text);
+}
+.event-box-content h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--c-primary-blue);
+  padding: 20px 0px 20px 22px;
+}
+.evnt-btn {
+  text-align: center;
+  margin-top: 24px;
+}
+.evnt-btn .custom-button {
+  font-weight: 500;
+  text-transform: uppercase;
+  width: 140px;
+  padding: 10px 0px 10px;
+  background-color: var(--c-primary-blue);
+  color: var(--c-white);
+}
+.evnt-btn .custom-button:hover {
+  background-color: transparent;
+  color: var(--c-primary-blue);
+}
+.event .owl-nav .owl-prev span {
+  background-color: var(--c-dark-grey-text) !important;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  position: absolute;
+  top: 37%;
+  transform: translateY(-50%);
+  left: -50px;
+  font-size: 31px;
+  text-align: center;
+  line-height: 24px;
+}
+.event .owl-nav .owl-next span {
+  background-color: var(--c-dark-grey-text) !important;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  position: absolute;
+  top: 37%;
+  transform: translateY(-50%);
+  right: -50px;
+  font-size: 31px;
+  text-align: center;
+  line-height: 24px;
+}
 /*************Rresponsive Start**************/
-
-
-
-
 
 @media (min-width: 1800px) and (max-width: 1900px){
   /*Sign up*/
