@@ -596,32 +596,13 @@
 .event {
   padding-top: 75px;
 }
-.event .custom-heading.line h3 {
-  font-size: 25px;
-  font-weight: 700;
-  color: var(--c-secondary-text);
-  padding-left: 25px;
-}
-.event .custom-heading.line {
-  position: relative;
-  margin-bottom: 40px;
-}
-.event .custom-heading.line::after {
-  position: absolute;
-  content: '';
-  background-color: var(--c-primary-blue);
-  height: 39px;
-  width: 9px;
-  top: -3px;
-  left: 0;
-}
 .home-section-btn {
   text-align: end;
   margin-bottom: 40px;
 }
 .home-section-btn .custom-button {
   padding: 9px 0px 9px;
-  width: 118px;
+  width: 118px !important;
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
@@ -713,6 +694,253 @@
 }
 .event.member .custom-button {
   width: 188px;
+}
+.event.member .event-box-content .event-img img {
+  height: 300px;
+  border-radius: 10px;
+}
+.member-text {
+  position: absolute;
+  bottom: 0;
+  bottom: 20px;
+}
+.event.member .event-box-content h4 {
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--c-white);
+  padding: 5px 0px 5px 20px;
+}
+.member-text a {
+  color: var(--c-white);
+  padding-left: 20px;
+}
+.member-text a span {
+  padding-left: 5px;
+}
+.event.member .event-box-content .member-location {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: var(--c-white);
+}
+.event-box-content .event-img {
+  position:relative;
+}
+.event-box-content .event-img::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 30%;
+  bottom: 0;
+  left: 0;
+  opacity: 0.28;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 23%, rgba(0,0,0,1) 100%);
+  border-radius: 0 0 10px 10px;
+}
+.event-box-content .event-img::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 30%;
+  top: 0;
+  left: 0;
+  opacity: 0.15;
+  background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 23%, rgba(0,0,0,1) 100%);
+  border-radius: 10px 10px 0 0;
+}
+.event.member {
+  padding-top: 62px;
+}
+.event.member.group .custom-button {
+  width: 139px;
+}
+.event.member.group .member-text h6 {
+  font-family: muli;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--c-white);
+  padding-left: 20px;
+}
+.event.member.group .event-box-content .event-img::before {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(25,24,24,1) 14%, rgba(0,0,0,1) 100%);
+}
+.event.member.group.deal .event-box-content h4 {
+  padding: 5px 10px 5px 20px;
+}
+.event.member.group.deal .event-box-content .event-img::after {
+  display: none;
+}
+.discount {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 90px 0;
+  position: relative;
+  z-index: 2;
+  margin-top: 65px;
+}
+.discount::after {
+  position: absolute;
+  content: '';
+  background-color: var(--c-primary-blue);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+  z-index: -1;
+}
+.discount .custom-heading.line::after {
+  background-color: var(--c-white);
+}
+.discount .custom-heading.line h3 {
+  color: var(--c-white);
+}
+.discount-box {
+  border: 2px solid var(--c-white);
+  border-radius: 20px;
+  padding: 25px 20px 50px 20px;
+}
+.discount-box h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--c-white);
+  border-bottom: 1px solid var(--c-white);
+  padding-bottom: 20px;
+}
+.discount-box h3 {
+  font-size: 43px;
+  font-weight: 400;
+  color: var(--c-white);
+  padding: 20px 0;
+}
+.discount-box .custom-para {
+  font-family: muli;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--c-white);
+  line-height: 26px;
+}
+.event.member.group.deal.leads  .event-box-content h4 {
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--c-primary-blue);
+  padding: 15px 0px 15px 17px;
+  text-align: left;
+}
+.event.member.group.deal.leads .event-box-content .event-img img {
+  border-radius: 10px 10px 0 0px;
+  height: 226px;
+}
+.event.leads .owl-nav .owl-prev span {
+  top: 48%;
+}
+.event.leads .owl-nav .owl-next span {
+  top: 48%;
+}
+.blog-content h3 {
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--c-primary-blue);
+}
+.blog-content .custom-para {
+  font-family: muli;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--c-secondary-text);
+  line-height: 26px;
+  padding: 15px 0;
+}
+.blog-content a {
+  color: var(--c-bg-blue);
+  font-weight: 500;
+  font-size: 14px;
+  font-family: var(--ff-primary);
+  text-transform: uppercase;
+}
+.blog-content {
+  padding: 25px 30px 0 10px;
+}
+.event.leads.blog .owl-nav .owl-prev span {
+  top: 27%;
+}
+.event.leads.blog .owl-nav .owl-next span {
+  top: 27%;
+}
+.event.leads.blog .event-box-content .event-img img {
+  height: 300px;
+  border-radius: 10px;
+}
+.event.leads.blog .event-box-content .event-img::after {
+  display: none;
+}
+.faq {
+  background-color: #fafbfd;
+  padding: 80px 0;
+}
+.faq h2 {
+  text-align: center;
+  color: var(--c-primary-text);
+  font-size: 25px;
+  font-weight: 700;
+}
+.faq-accordion {
+  border: 1px solid var(--c-tertiary-text-alt);
+  width: 90%;
+}
+.faq-accordion {
+  margin-top: 20px;
+}
+.faq-accordion .accordion-button.collapsed {
+  font-family: var(--ff-primary);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--c-secondary-text);
+}
+.faq-accordion .accordion-button {
+  font-family: var(--ff-primary);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--c-secondary-text);
+}
+.newsletter h3 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: center;
+  padding: 0 200px;
+  margin-top: 70px;
+}
+.newsletter-mail {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0 !important;
+}
+.newsletter-btn {
+  margin: 0 0;
+}
+.newsletter-mail .form-control {
+  width: 35%;
+  font-size: 14px;
+  font-family: muli;
+  font-weight: 400;
+  color: var(--c-gray-text);
+  padding: 10px 10px;
+}
+.newsletter-mail .custom-button {
+  padding: 9px 0px 9px;
+  background-color: var(--c-primary-blue);
+  color: var(--c-white);
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+.newsletter-mail .custom-button:hover {
+  background-color: transparent;
+  color: var(--c-primary-blue);
+}
+.newsletter form {
+  margin-top: 30px;
 }
 /*************Rresponsive Start**************/
 
