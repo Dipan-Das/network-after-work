@@ -47,11 +47,12 @@
 .custom-heading.line h3 {font-size: 22px;padding-left: 16px;}
 .custom-heading.line::after {height: 32px;width: 7px;}
 .custom-heading.line {margin-bottom: 20px;}
+.custom-para {font-size: 13px; line-height: 24px;}
 }
 
 
 @media (max-width: 767.98px){
-
+    .custom-para {font-size: 12px; line-height: 20px;}
 }
 @media (max-width: 575.98px){
     

@@ -1259,6 +1259,25 @@
 
 
 @media (max-width: 767.98px){
+    /*Home*/
+    .custom-banner .d-none {display: block !important;}
+    .custom-banner .banner-img {height: 450px;}
+    .custom-banner .carousel-caption h2 {text-align: center;}
+    .custom-banner .carousel-caption .custom-para {text-align: center;}
+    .banner-btn {text-align: center;}
+    .event-box-content .event-img .custom-para {left: 0;right: 0;margin: 0 auto;}
+    .event-box-content .event-img img {height: auto;}
+    .event.member .event-box-content .event-img img {height: auto;}
+    .event.member.group.deal.leads .event-box-content .event-img img {height: auto;}
+    .event.leads.blog .event-box-content .event-img img {height: auto;}
+    .faq-accordion .accordion-button.collapsed {font-size: 14px;}
+    .faq-accordion .accordion-button {font-size: 14px;}
+    .newsletter h3 {font-size: 18px;line-height: 26px;}
+    .newsletter-mail .form-control {width: 55%;padding: 9px 10px;}
+    .faq {padding: 40px 0;}
+    .discount {padding: 40px 0;}
+
+    /*Sign in*/
     .custom-header .header-top .custom-para {font-size: 11px;}
     .sign-in-content {padding: 50px 0;}
     .signin-form {width: 550px;top: 29%;}
@@ -1271,6 +1290,30 @@
 }
 
 @media (max-width: 575.98px){
+    /*Home*/
+    .banner-content {width: 92%;height: 280px;}
+    .custom-banner .carousel-caption h2 {font-size: 22px;}
+    .banner-btn .custom-button {font-size: 12px;width: 215px;}
+    .custom-banner .carousel-caption .custom-para {font-size: 13px;line-height: 20px;}
+    .event .custom-heading.line {text-align: center;}
+    .home-section-btn {text-align: center;}
+    .custom-heading.line::after {left: -100px;right: 0;margin: 0 auto;top: -2px;}
+    .event {padding-top: 40px;}
+    .event.member .custom-heading.line::after {left: -120px;}
+    .event.member.group .event.member .custom-heading.line::after {left: -100px;}
+    .event.member.group.deal .event.member .custom-heading.line::after {left: -80px;}
+    .discount .custom-heading.line {text-align: center;}
+    .discount .custom-heading.line::after {left: -80px;}
+    .discount-box {text-align: center;}
+    .event.member.group.deal.leads .event.member .custom-heading.line::after {left: -90px;}
+    .event.leads.blog .custom-heading.line::after {left: -220px;}
+    .newsletter-mail .custom-button {margin-left: 10px;}
+    .banner-content {padding: 15px 10px 0;height: 310px;}
+    .custom-banner .carousel-caption h2 {font-size: 18px;}
+    .custom-banner .banner-img {height: 400px;}
+    .event.member {padding-top: 40px;}
+
+    /*Sign in*/
     .sign-in-content {padding: 40px 0;}
     .signin-form {width: 450px;top: 30%;}
     .sign-in-content h3 {line-height: 26px;}
@@ -1300,6 +1343,15 @@
 }
 
 @media only screen and (max-width: 480.98px) {	
+    /*Home*/
+    .custom-heading.line h3 {font-size: 20px;padding-left: 0px;}
+    .custom-heading.line::after {height: 28px;width: 5px;top: 0px;}
+    .discount-box h2 {font-size: 26px;padding-bottom: 10px;}
+    .discount-box h3 {font-size: 22px;padding: 10px 0;}
+    .discount-box {padding: 25px 20px 30px 20px;margin: 10px 0;}
+    .newsletter-mail .form-control {width: 65%;}
+    
+    /*Sign in*/
     .signin-form h3 {font-size: 18px;}
     .signin-form .custom-para {font-size: 13px;}
     .signin-form form .form-check-label {font-size: 13px;}
