@@ -108,6 +108,19 @@ jQuery('#blogs-carousel').owlCarousel({
 });
 
 jQuery(document).ready(function(){
+    jQuery(".hamburger").click(function(){
+      jQuery(this).toggleClass("is-active");
+      if (jQuery(this).hasClass("is-active")) {
+        
+          jQuery(".main-dashboard-left-wrap").addClass("show");
+      } else {
+        jQuery(".main-dashboard-left-wrap").removeClass("show");
+      }
+    });
+});
+
+
+jQuery(document).ready(function(){
     jQuery('#step-3-btn').click(function(){
         jQuery('#form-step-4').slideDown(1000);
         jQuery('#form-step-3').hide();
@@ -159,3 +172,4 @@ jQuery(document).ready(function(){
           //seconds
         }, 0)
     }());
+
