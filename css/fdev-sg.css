@@ -1191,6 +1191,15 @@ flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
+.select-category-wrap .form-select {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-bottom: 1px solid var(--c-tertiary-text-alt);
+  border-radius: 0;
+}
+.select-category-wrap ul li {
+  margin: 0 10px;
+}
 .community-carousel-wrap-1 {
   display: flex;
   justify-content: center;
