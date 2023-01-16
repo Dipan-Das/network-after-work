@@ -1,0 +1,31 @@
+/* dashboard right */
+.main-dashboard-right-wrap {
+  background-color: #eef4ff;
+  position: relative;
+}
+/*************Rresponsive Start**************/
+
+@media (min-width: 1800px) and (max-width: 1900px){}
+
+@media (min-width: 1700px) and (max-width: 1800px){}
+
+@media (min-width: 1600px) and (max-width: 1700px){}
+
+@media (min-width: 1500px) and (max-width: 1600px){}
+
+@media (min-width: 1400px) and (max-width: 1500px){}
+
+@media (min-width: 1300px) and (max-width: 1400px){}
+
+@media (min-width: 1200px) and (max-width: 1300px){}
+
+@media (min-width: 1024px) and (max-width: 1200px){}
+
+@media (min-width: 992px) and (max-width: 1024px) {}
+
+@media only screen and (max-width: 991.98px) {}
+
+@media (max-width: 767.98px){}
+
+@media (max-width: 575.98px){}
+
