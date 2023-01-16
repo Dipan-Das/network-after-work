@@ -107,6 +107,44 @@ jQuery('#blogs-carousel').owlCarousel({
     }
 });
 
+jQuery('#community-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    navText : ["<i class='las la-arrow-left'></i>","<i class='las la-arrow-right'></i>"],
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:1
+        },
+        992:{
+            items:1
+        }
+    }
+});
+
+jQuery('#members-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    navText : ["<i class='las la-arrow-left'></i>","<i class='las la-arrow-right'></i>"],
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:1
+        },
+        992:{
+            items:1
+        }
+    }
+});
+
 jQuery(document).ready(function(){
     jQuery(".hamburger").click(function(){
       jQuery(this).toggleClass("is-active");
