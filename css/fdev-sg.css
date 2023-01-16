@@ -1351,6 +1351,13 @@ flex-direction: column;
 }
 .community-content-slider .community-category-btn .custom-button {
   margin-left: 10px;
+  padding: 7px 0px 7px;
+  width: 100px;
+}
+.community-content-slider .community-category-btn .custom-button-alt {
+  margin-left: 10px;
+  padding: 7px 0px 7px;
+  width: 100px;
 }
 /*************Rresponsive Start**************/
 
@@ -1687,7 +1694,7 @@ flex-direction: column;
     .community-carousel-wrap-2 {flex-direction: column;}
     .community-content-box-wrap {margin: 0 0;}
     .community-content-box .writers-group ul {padding: 10px 0;}
-    .select-category-wrap .form-select {padding: 0 30px 5px 0px;}
+    .select-category-wrap .form-select {padding: 0 20px 5px 0px;}
 }
 
 
