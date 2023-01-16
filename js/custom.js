@@ -107,6 +107,24 @@ jQuery('#blogs-carousel').owlCarousel({
     }
 });
 
+jQuery('#community-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots: false,
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:1
+        },
+        992:{
+            items:1
+        }
+    }
+});
+
 jQuery(document).ready(function(){
     jQuery('#step-3-btn').click(function(){
         jQuery('#form-step-4').slideDown(1000);
