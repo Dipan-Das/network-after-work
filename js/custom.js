@@ -111,7 +111,8 @@ jQuery('#community-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
-    dots: false,
+    dots:false,
+    navText : ["<i class='las la-arrow-left'></i>","<i class='las la-arrow-right'></i>"],
     responsive:{
         0:{
             items:1
