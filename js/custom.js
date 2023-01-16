@@ -126,6 +126,25 @@ jQuery('#community-carousel').owlCarousel({
     }
 });
 
+jQuery('#members-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    navText : ["<i class='las la-arrow-left'></i>","<i class='las la-arrow-right'></i>"],
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:1
+        },
+        992:{
+            items:1
+        }
+    }
+});
+
 jQuery(document).ready(function(){
     jQuery('#step-3-btn').click(function(){
         jQuery('#form-step-4').slideDown(1000);
