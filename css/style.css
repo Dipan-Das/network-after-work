@@ -23,8 +23,9 @@
   --c-dark-grey-text: #999999;
 
   --ff-primary: 'Montserrat', sans-serif;
+  --ff-secondary: "muli";
   --ff-tertiary: 'Roboto', sans-serif;
-  
+
 }
 
 @font-face {
