@@ -467,6 +467,24 @@
 .dashboard-right_post {
   background-color: #fff;
 }
+.post-content p {
+  color: #707070;
+  font-family: var(--ff-seecondary);
+}
+.dashboard-right_post .post-actions {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 29px;
+}
+.dashboard-right_post .post-actions > * {
+  margin: 0;
+  color: #707070;
+  font-size: 13px;
+}
+.dashboard-right_post .post-actions > * > span {
+  padding-right: 2px;
+}
 /* newsfeed */
 
 /*************Rresponsive Start**************/
